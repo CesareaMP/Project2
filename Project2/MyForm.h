@@ -72,7 +72,7 @@ namespace Project2 {
 		}
 #pragma endregion
 	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
-		String^ fileName = "vacio.csv";
+		String^ fileName = "album.csv";
 		StreamReader^ din = File::OpenText(fileName);
 		String^ str = din->ReadLine();
 
