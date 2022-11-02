@@ -1,11 +1,10 @@
 #pragma once
+#include<msclr/marshal_cppstd.h>
 #include<string>
 #include <sstream>
 #include <fstream>
 #include "Equipos.h";
-#include <stdlib.h>
-#include <chrono>
-#define NOMBRE_ARCHIVO "vacio.csv"
+
 
 namespace Project2 {
 
@@ -15,6 +14,9 @@ namespace Project2 {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace System::IO;
+	using namespace System::Media;
+	Equipos equipo;
 
 	/// <summary>
 	/// Resumen de MyForm
@@ -70,17 +72,23 @@ namespace Project2 {
 		}
 #pragma endregion
 	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
-		ifstream archivo(NOMBRE_ARCHIVO);
-		string linea;
-		char delimitador1 = ',';
-		char delimitador2 = '-';
-		getline(archivo, linea);
-		while (getline(archivo, linea))
-		{
-			stringstream stream(linea);
-			string nomeq, codeq;
-			getline(stream, nomeq, delimitador1);
-			getline(stream, codeq, delimitador1);
+		String^ fileName = "vacio.csv";
+		StreamReader^ din = File::OpenText(fileName);
+		String^ str = din->ReadLine();
+
+		while (str != nullptr) {
+			String^ codequipo = str->Split(',')[1];
+			String^ nomequipo = str->Split(',')[0];
+			str = din->ReadLine();
+			for (int i = 0; i <= str->Split(',')->Length - 1; i++)
+			{
+				String^ comas = str->Split(',')[i];
+				String^ codestampa = codequipo + comas->Split('-')[0];
+				String^ nomestampa = comas->Split('-')[1];
+				equipo.AddNo(msclr::interop::marshal_as<std::string>(codestampa), msclr::interop::marshal_as<std::string>(nomestampa));
+			}
+			equipo.AddEq(msclr::interop::marshal_as<std::string>(codequipo), msclr::interop::marshal_as<std::string>(nomequipo));
+			str = din->ReadLine();
 		}
 	}
 	};
