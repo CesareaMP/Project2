@@ -24,8 +24,11 @@ public:
 	void AddEq(string, string);
 	void AddNo(string, string);
 
-	//metodos para marcar y agregar cantidad de las estampas
-	void marcar_aumentar(string);
+	//metodo para marcar y agregar cantidad de las estampas
+	bool marcar_aumentar(string);
+	//metodo para contar el total de estampas
+	int total_estampas();
+
 
 private:
 	Nodestampa* eheader = nullptr;

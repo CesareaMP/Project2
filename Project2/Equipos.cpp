@@ -20,7 +20,7 @@ void Equipos::AddNo(string cod, string nom)
 	nheader = aux;
 }
 
-void Equipos::marcar_aumentar(string code)
+bool Equipos::marcar_aumentar(string code)
 {
 	Nodestampa* auxestampas = eheader;
 	Nodenombres* auxnombres = auxestampas->nombres;
@@ -32,9 +32,41 @@ void Equipos::marcar_aumentar(string code)
 			{
 				auxnombres->marca = true;
 				auxnombres->cantidad++;
+				return true;
 			}
 			auxnombres = auxnombres->next;
 		}
-		auxestampas = auxestampas->next;
+		if (auxestampas->next==nullptr)
+		{
+			return false;
+		}
+		else
+		{
+			auxestampas = auxestampas->next;
+			auxnombres = auxestampas->nombres;
+		}
 	}
+	return false;
+}
+
+int Equipos::total_estampas()
+{
+	int total = 0;
+	Nodestampa* auxestampas = eheader;
+	Nodenombres* auxnombres = auxestampas->nombres;
+	while (auxestampas != nullptr)
+	{
+		while (auxnombres != nullptr)
+		{
+			total++;
+			auxnombres = auxnombres->next;
+		}
+		if (auxestampas->next==nullptr)
+		{
+			return total;
+		}
+		auxestampas = auxestampas->next;
+		auxnombres = auxestampas->nombres;
+	}
+	return 0;
 }
