@@ -90,6 +90,12 @@ namespace Project2 {
 			equipo.AddEq(msclr::interop::marshal_as<std::string>(codequipo), msclr::interop::marshal_as<std::string>(nomequipo));
 			str = din->ReadLine();
 		}
+		equipo.marcar_aumentar("FWC19");
+		equipo.marcar_aumentar("FWC1");
+		equipo.marcar_aumentar("FWC12");
+		MessageBox::Show(equipo.total_estampas().ToString());
+		MessageBox::Show(equipo.estampas_marcadas().ToString());
+		MessageBox::Show(equipo.estampas_faltantes(equipo.total_estampas(),equipo.estampas_marcadas()).ToString());
 	}
 	};
 }

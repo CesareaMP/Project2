@@ -12,12 +12,12 @@ class Equipos
 		int cantidad;
 		Nodenombres* next;
 	};
-	struct Nodestampa
+	struct Nodequipos
 	{
 		string codigo_equipo;
 		string nombre_equipo;
 		Nodenombres* nombres;
-		Nodestampa* next;
+		Nodequipos* next;
 	};
 public:
 	//metodos para leer el csv
@@ -28,9 +28,12 @@ public:
 	bool marcar_aumentar(string);
 	//metodo para contar el total de estampas
 	int total_estampas();
-
-
+	//metodo para contar las estampas marcadas
+	int estampas_marcadas();	
+	//metodo para contar las estampas faltantes
+	int estampas_faltantes(int,int);
+		
 private:
-	Nodestampa* eheader = nullptr;
-	Nodenombres* nheader = nullptr;
+	Nodequipos* estheader = nullptr;
+	Nodenombres* nomheader = nullptr;
 };
