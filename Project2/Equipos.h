@@ -27,13 +27,16 @@ public:
 	//metodo para marcar y agregar cantidad de las estampas
 	bool marcar_aumentar(string);
 	//metodo para contar el total de estampas
-	int total_estampas();
+	int estampas_totales();
 	//metodo para contar las estampas marcadas
 	int estampas_marcadas();	
 	//metodo para contar las estampas faltantes
 	int estampas_faltantes(int,int);
+	//metodo para buscar una estampa segun su codigo
+	string buscar_estampa(string);
+
 		
 private:
-	Nodequipos* estheader = nullptr;
+	Nodequipos* equiheader = nullptr;
 	Nodenombres* nomheader = nullptr;
 };

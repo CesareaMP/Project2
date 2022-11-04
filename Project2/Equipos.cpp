@@ -7,8 +7,8 @@ void Equipos::AddEq(string codigeq, string nomeq)
 	auxe->nombre_equipo = nomeq;
 	auxe->nombres = nomheader;
 	nomheader = nullptr;
-	auxe->next = estheader;
-	estheader = auxe;
+	auxe->next = equiheader;
+	equiheader = auxe;
 }
 
 void Equipos::AddNo(string cod, string nom)
@@ -22,7 +22,7 @@ void Equipos::AddNo(string cod, string nom)
 
 bool Equipos::marcar_aumentar(string code)
 {
-	Nodequipos* auxestampas = estheader;
+	Nodequipos* auxestampas = equiheader;
 	Nodenombres* auxnombres = auxestampas->nombres;
 	while (auxestampas!=nullptr)
 	{
@@ -49,10 +49,10 @@ bool Equipos::marcar_aumentar(string code)
 	return false;
 }
 
-int Equipos::total_estampas()
+int Equipos::estampas_totales()
 {
 	int total = 0;
-	Nodequipos* auxestampas = estheader;
+	Nodequipos* auxestampas = equiheader;
 	Nodenombres* auxnombres = auxestampas->nombres;
 	while (auxestampas != nullptr)
 	{
@@ -75,7 +75,7 @@ int Equipos::estampas_marcadas()
 {
 	int total = 0;
 
-	Nodequipos* auxestampas = estheader;
+	Nodequipos* auxestampas = equiheader;
 	Nodenombres* auxnombres = auxestampas->nombres;
 	while (auxestampas != nullptr)
 	{
@@ -97,4 +97,50 @@ int Equipos::estampas_marcadas()
 int Equipos::estampas_faltantes(int total, int marcadas)
 {
 	return total-marcadas;
+}
+
+string Equipos::buscar_estampa(string code)
+{
+	Nodequipos *auxequi = equiheader;
+	Nodenombres* auxnom = auxequi->nombres;
+	if (code.length()>5)
+	{
+		while (auxequi!=nullptr)
+		{
+			while (auxnom!=nullptr)
+			{
+				if (auxnom->nombre==code)
+				{
+					return auxequi->nombre_equipo + "," + auxnom->codigo + "," + auxnom->nombre + "," + std::to_string((auxnom->cantidad));
+				}
+				auxnom = auxnom->next;
+			}
+			if (auxequi->next == nullptr)
+			{
+				return "No existe la estampa";
+			}
+			auxequi = auxequi->next;
+			auxnom = auxequi->nombres;			
+		}
+	}
+	else
+	{
+		while (auxequi != nullptr)
+		{
+			while (auxnom != nullptr)
+			{
+				if (auxnom->codigo == code)
+				{
+					return auxequi->nombre_equipo + "," + auxnom->codigo + "," + auxnom->nombre + "," + std::to_string((auxnom->cantidad));
+				}
+				auxnom = auxnom->next;
+			}
+			if (auxequi->next == nullptr)
+			{
+				return "No existe la estampa";
+			}
+			auxequi = auxequi->next;
+			auxnom = auxequi->nombres;
+		}
+	}
 }
