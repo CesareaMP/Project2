@@ -81,7 +81,11 @@ int Equipos::estampas_marcadas()
 	{
 		while (auxnombres != nullptr)
 		{
-			total+=auxnombres->cantidad;
+			if (auxnombres->marca==true)
+			{
+				total++;
+			}
+			
 			auxnombres = auxnombres->next;
 		}
 		if (auxestampas->next == nullptr)

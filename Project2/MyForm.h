@@ -18,6 +18,7 @@ namespace Project2 {
 	using namespace System::Media;
 	Equipos equipo;
 
+
 	/// <summary>
 	/// Resumen de MyForm
 	/// </summary>
@@ -43,7 +44,9 @@ namespace Project2 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::TextBox^ textBox2;
+	private: System::Windows::Forms::TextBox^ txtagregarvarias;
+	protected:
+
 	protected:
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::Button^ button3;
@@ -51,18 +54,25 @@ namespace Project2 {
 	private: System::Windows::Forms::Button^ button2;
 	private: System::Windows::Forms::TextBox^ txtagregar;
 	private: System::Windows::Forms::Label^ label7;
-	private: System::Windows::Forms::TextBox^ txtbuscarcodigo;
+
 	private: System::Windows::Forms::TextBox^ txtbuscarnombre;
-	private: System::Windows::Forms::Label^ label5;
+
 	private: System::Windows::Forms::Label^ label4;
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::TextBox^ txtmarcadas;
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::TextBox^ txtfaltantes;
 	private: System::Windows::Forms::Label^ label2;
-	private: System::Windows::Forms::TextBox^ txtrepetidas;
+	private: System::Windows::Forms::TextBox^ txtotales;
+
 	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::TextBox^ txtobservar;
+
+	private: System::Windows::Forms::Label^ lblmuestreo;
+	private: System::Windows::Forms::ListBox^ listBox1;
+	private: System::Windows::Forms::Button^ button4;
+	private: System::Windows::Forms::Button^ button5;
+
+
 
 	private:
 		/// <summary>
@@ -78,37 +88,38 @@ namespace Project2 {
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
-			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->txtagregarvarias = (gcnew System::Windows::Forms::TextBox());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->txtagregar = (gcnew System::Windows::Forms::TextBox());
 			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->txtbuscarcodigo = (gcnew System::Windows::Forms::TextBox());
 			this->txtbuscarnombre = (gcnew System::Windows::Forms::TextBox());
-			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->txtmarcadas = (gcnew System::Windows::Forms::TextBox());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->txtfaltantes = (gcnew System::Windows::Forms::TextBox());
 			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->txtrepetidas = (gcnew System::Windows::Forms::TextBox());
+			this->txtotales = (gcnew System::Windows::Forms::TextBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->txtobservar = (gcnew System::Windows::Forms::TextBox());
+			this->lblmuestreo = (gcnew System::Windows::Forms::Label());
+			this->listBox1 = (gcnew System::Windows::Forms::ListBox());
+			this->button4 = (gcnew System::Windows::Forms::Button());
+			this->button5 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
-			// textBox2
+			// txtagregarvarias
 			// 
-			this->textBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->textBox2->Location = System::Drawing::Point(540, 329);
-			this->textBox2->Multiline = true;
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(325, 25);
-			this->textBox2->TabIndex = 58;
+			this->txtagregarvarias->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->txtagregarvarias->Location = System::Drawing::Point(545, 344);
+			this->txtagregarvarias->Multiline = true;
+			this->txtagregarvarias->Name = L"txtagregarvarias";
+			this->txtagregarvarias->Size = System::Drawing::Size(244, 39);
+			this->txtagregarvarias->TabIndex = 58;
 			// 
 			// pictureBox1
 			// 
@@ -123,12 +134,13 @@ namespace Project2 {
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(714, 382);
+			this->button3->Location = System::Drawing::Point(804, 334);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(152, 48);
+			this->button3->Size = System::Drawing::Size(129, 60);
 			this->button3->TabIndex = 56;
 			this->button3->Text = L"Agregar \r\nEstampas";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
 			// label8
 			// 
@@ -136,7 +148,7 @@ namespace Project2 {
 			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label8->ForeColor = System::Drawing::Color::White;
-			this->label8->Location = System::Drawing::Point(523, 286);
+			this->label8->Location = System::Drawing::Point(541, 291);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(365, 40);
 			this->label8->TabIndex = 55;
@@ -144,21 +156,22 @@ namespace Project2 {
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(713, 214);
+			this->button2->Location = System::Drawing::Point(783, 215);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(152, 29);
+			this->button2->Size = System::Drawing::Size(100, 50);
 			this->button2->TabIndex = 54;
 			this->button2->Text = L"Agregar ";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// txtagregar
 			// 
 			this->txtagregar->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->txtagregar->Location = System::Drawing::Point(542, 221);
+			this->txtagregar->Location = System::Drawing::Point(545, 226);
 			this->txtagregar->Multiline = true;
 			this->txtagregar->Name = L"txtagregar";
-			this->txtagregar->Size = System::Drawing::Size(137, 22);
+			this->txtagregar->Size = System::Drawing::Size(219, 32);
 			this->txtagregar->TabIndex = 53;
 			// 
 			// label7
@@ -167,66 +180,49 @@ namespace Project2 {
 			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label7->ForeColor = System::Drawing::Color::White;
-			this->label7->Location = System::Drawing::Point(545, 166);
+			this->label7->Location = System::Drawing::Point(541, 169);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(307, 40);
 			this->label7->TabIndex = 52;
 			this->label7->Text = L"Si de sea agregar una estampa ingrese \r\nel codigo unico de la estampa.";
 			// 
-			// txtbuscarcodigo
-			// 
-			this->txtbuscarcodigo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->txtbuscarcodigo->Location = System::Drawing::Point(613, 90);
-			this->txtbuscarcodigo->Multiline = true;
-			this->txtbuscarcodigo->Name = L"txtbuscarcodigo";
-			this->txtbuscarcodigo->Size = System::Drawing::Size(137, 22);
-			this->txtbuscarcodigo->TabIndex = 51;
-			// 
 			// txtbuscarnombre
 			// 
+			this->txtbuscarnombre->Enabled = false;
 			this->txtbuscarnombre->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->txtbuscarnombre->Location = System::Drawing::Point(613, 62);
+			this->txtbuscarnombre->Location = System::Drawing::Point(374, 98);
 			this->txtbuscarnombre->Multiline = true;
 			this->txtbuscarnombre->Name = L"txtbuscarnombre";
-			this->txtbuscarnombre->Size = System::Drawing::Size(137, 22);
+			this->txtbuscarnombre->Size = System::Drawing::Size(169, 29);
 			this->txtbuscarnombre->TabIndex = 50;
-			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->ForeColor = System::Drawing::Color::White;
-			this->label5->Location = System::Drawing::Point(548, 87);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(54, 16);
-			this->label5->TabIndex = 49;
-			this->label5->Text = L"Codigo:";
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
 			this->label4->ForeColor = System::Drawing::Color::White;
-			this->label4->Location = System::Drawing::Point(548, 62);
+			this->label4->Location = System::Drawing::Point(371, 48);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(59, 16);
+			this->label4->Size = System::Drawing::Size(260, 32);
 			this->label4->TabIndex = 48;
-			this->label4->Text = L"Nombre:";
+			this->label4->Text = L"Ingrese el nombre o codigo de la estampa\r\npara buscarla y obtener sus datos";
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(756, 74);
+			this->button1->Location = System::Drawing::Point(560, 98);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(110, 29);
+			this->button1->Size = System::Drawing::Size(88, 29);
 			this->button1->TabIndex = 47;
 			this->button1->Text = L"Buscar";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// txtmarcadas
 			// 
+			this->txtmarcadas->Enabled = false;
 			this->txtmarcadas->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->txtmarcadas->Location = System::Drawing::Point(653, 497);
+			this->txtmarcadas->Location = System::Drawing::Point(653, 526);
 			this->txtmarcadas->Multiline = true;
 			this->txtmarcadas->Name = L"txtmarcadas";
 			this->txtmarcadas->Size = System::Drawing::Size(44, 38);
@@ -238,7 +234,7 @@ namespace Project2 {
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label3->ForeColor = System::Drawing::Color::White;
-			this->label3->Location = System::Drawing::Point(543, 500);
+			this->label3->Location = System::Drawing::Point(543, 529);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(88, 20);
 			this->label3->TabIndex = 45;
@@ -246,9 +242,10 @@ namespace Project2 {
 			// 
 			// txtfaltantes
 			// 
+			this->txtfaltantes->Enabled = false;
 			this->txtfaltantes->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->txtfaltantes->Location = System::Drawing::Point(653, 448);
+			this->txtfaltantes->Location = System::Drawing::Point(653, 477);
 			this->txtfaltantes->Multiline = true;
 			this->txtfaltantes->Name = L"txtfaltantes";
 			this->txtfaltantes->Size = System::Drawing::Size(44, 38);
@@ -260,21 +257,22 @@ namespace Project2 {
 			this->label2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label2->ForeColor = System::Drawing::Color::White;
-			this->label2->Location = System::Drawing::Point(543, 451);
+			this->label2->Location = System::Drawing::Point(543, 480);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(83, 20);
 			this->label2->TabIndex = 43;
 			this->label2->Text = L"Faltantes:";
 			// 
-			// txtrepetidas
+			// txtotales
 			// 
-			this->txtrepetidas->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->txtotales->Enabled = false;
+			this->txtotales->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->txtrepetidas->Location = System::Drawing::Point(653, 398);
-			this->txtrepetidas->Multiline = true;
-			this->txtrepetidas->Name = L"txtrepetidas";
-			this->txtrepetidas->Size = System::Drawing::Size(44, 38);
-			this->txtrepetidas->TabIndex = 42;
+			this->txtotales->Location = System::Drawing::Point(653, 427);
+			this->txtotales->Multiline = true;
+			this->txtotales->Name = L"txtotales";
+			this->txtotales->Size = System::Drawing::Size(44, 38);
+			this->txtotales->TabIndex = 42;
 			// 
 			// label1
 			// 
@@ -282,46 +280,74 @@ namespace Project2 {
 			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label1->ForeColor = System::Drawing::Color::White;
-			this->label1->Location = System::Drawing::Point(543, 410);
+			this->label1->Location = System::Drawing::Point(543, 439);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(89, 20);
+			this->label1->Size = System::Drawing::Size(69, 20);
 			this->label1->TabIndex = 41;
-			this->label1->Text = L"Repetidas:";
+			this->label1->Text = L"Totales:";
 			// 
-			// txtobservar
+			// lblmuestreo
 			// 
-			this->txtobservar->BackColor = System::Drawing::Color::White;
-			this->txtobservar->Location = System::Drawing::Point(9, 177);
-			this->txtobservar->Multiline = true;
-			this->txtobservar->Name = L"txtobservar";
-			this->txtobservar->Size = System::Drawing::Size(506, 366);
-			this->txtobservar->TabIndex = 40;
+			this->lblmuestreo->AutoSize = true;
+			this->lblmuestreo->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
+			this->lblmuestreo->Location = System::Drawing::Point(371, 111);
+			this->lblmuestreo->Name = L"lblmuestreo";
+			this->lblmuestreo->Size = System::Drawing::Size(0, 16);
+			this->lblmuestreo->TabIndex = 59;
+			// 
+			// listBox1
+			// 
+			this->listBox1->FormattingEnabled = true;
+			this->listBox1->ItemHeight = 16;
+			this->listBox1->Location = System::Drawing::Point(26, 233);
+			this->listBox1->Name = L"listBox1";
+			this->listBox1->Size = System::Drawing::Size(491, 404);
+			this->listBox1->TabIndex = 60;
+			// 
+			// button4
+			// 
+			this->button4->Location = System::Drawing::Point(26, 180);
+			this->button4->Name = L"button4";
+			this->button4->Size = System::Drawing::Size(88, 29);
+			this->button4->TabIndex = 61;
+			this->button4->Text = L"NOMBRE";
+			this->button4->UseVisualStyleBackColor = true;
+			// 
+			// button5
+			// 
+			this->button5->Location = System::Drawing::Point(120, 180);
+			this->button5->Name = L"button5";
+			this->button5->Size = System::Drawing::Size(88, 29);
+			this->button5->TabIndex = 62;
+			this->button5->Text = L"EQUIPO";
+			this->button5->UseVisualStyleBackColor = true;
 			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::DarkRed;
-			this->ClientSize = System::Drawing::Size(889, 594);
-			this->Controls->Add(this->textBox2);
+			this->ClientSize = System::Drawing::Size(945, 656);
+			this->Controls->Add(this->button5);
+			this->Controls->Add(this->button4);
+			this->Controls->Add(this->listBox1);
+			this->Controls->Add(this->lblmuestreo);
+			this->Controls->Add(this->txtagregarvarias);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->label8);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->txtagregar);
 			this->Controls->Add(this->label7);
-			this->Controls->Add(this->txtbuscarcodigo);
 			this->Controls->Add(this->txtbuscarnombre);
-			this->Controls->Add(this->label5);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->txtmarcadas);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->txtfaltantes);
 			this->Controls->Add(this->label2);
-			this->Controls->Add(this->txtrepetidas);
+			this->Controls->Add(this->txtotales);
 			this->Controls->Add(this->label1);
-			this->Controls->Add(this->txtobservar);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
@@ -350,13 +376,64 @@ namespace Project2 {
 			equipo.AddEq(msclr::interop::marshal_as<std::string>(codequipo), msclr::interop::marshal_as<std::string>(nomequipo));
 			str = din->ReadLine();
 		}
-		equipo.marcar_aumentar("FWC19");
-		equipo.marcar_aumentar("FWC1");
-		equipo.marcar_aumentar("FWC12");
-		MessageBox::Show(equipo.estampas_totales().ToString());
+		int marcadas = equipo.estampas_marcadas();
+		int totales = equipo.estampas_totales();
+		int faltantes = equipo.estampas_faltantes(totales, marcadas);
+		txtotales->Text = gcnew String(totales.ToString());
+		txtfaltantes->Text = gcnew String(faltantes.ToString());
+		txtmarcadas->Text = gcnew String(marcadas.ToString());
+
+		//equipo.marcar_aumentar("FWC19");
+		//equipo.marcar_aumentar("FWC1");
+		//equipo.marcar_aumentar("FWC12");
+		/*MessageBox::Show(equipo.estampas_totales().ToString());
 		MessageBox::Show(equipo.estampas_marcadas().ToString());
 		MessageBox::Show(equipo.estampas_faltantes(equipo.estampas_totales(), equipo.estampas_marcadas()).ToString());
-		MessageBox::Show(gcnew String(equipo.buscar_estampa("Guillermo Ochoa").c_str()));
+		MessageBox::Show(gcnew String(equipo.buscar_estampa("Guillermo Ochoa").c_str()));*/
 	}
-	};
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		lblmuestreo->Text= gcnew String(equipo.buscar_estampa(msclr::interop::marshal_as<std::string>(txtbuscarnombre->Text)).c_str());
+
+	}
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+	String^ a = "";
+	if (equipo.marcar_aumentar(msclr::interop::marshal_as<std::string>(txtagregar->Text))==true)
+	{
+		a = "Se marcó y/o aumento la estampa satisfactoriamente";
+	}
+	else
+	{
+		a = "No se encontró la estampa";
+	}
+	int marcadas = equipo.estampas_marcadas();
+	int totales = equipo.estampas_totales();
+	int faltantes = equipo.estampas_faltantes(totales, marcadas);
+	txtfaltantes->Text = gcnew String(faltantes.ToString());
+	txtmarcadas->Text = gcnew String(marcadas.ToString());
+	MessageBox::Show(a);
+	txtagregar->Text = "";
+}
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+	String^ estampas = txtagregarvarias->Text;
+	String^ mensaje = "No se han encontrado las estampas: ";
+	for (int i = 0; i < estampas->Split(',')->Length; i++)
+	{
+		String^ enviar = estampas->Split(',')[i];
+		if (equipo.marcar_aumentar(msclr::interop::marshal_as<std::string>(enviar))==false)
+		{
+			mensaje += enviar + ",";
+		}
+		if (mensaje!="No se han encontrado las estampas: ")
+		{
+			MessageBox::Show(mensaje);
+		}		
+	}
+	txtagregarvarias->Text = "";
+	int marcadas = equipo.estampas_marcadas();
+	int totales = equipo.estampas_totales();
+	int faltantes = equipo.estampas_faltantes(totales, marcadas);
+	txtfaltantes->Text = gcnew String(faltantes.ToString());
+	txtmarcadas->Text = gcnew String(marcadas.ToString());
+}
+};
 }
