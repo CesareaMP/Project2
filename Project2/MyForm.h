@@ -296,7 +296,7 @@ namespace Project2 {
 			// 
 			this->lblmuestreo->AutoSize = true;
 			this->lblmuestreo->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->lblmuestreo->Location = System::Drawing::Point(371, 145);
+			this->lblmuestreo->Location = System::Drawing::Point(683, 98);
 			this->lblmuestreo->Name = L"lblmuestreo";
 			this->lblmuestreo->Size = System::Drawing::Size(0, 16);
 			this->lblmuestreo->TabIndex = 59;
