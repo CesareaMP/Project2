@@ -1,0 +1,671 @@
+CODIGO,		NOMBRE		REPETICIONES		MARCADA
+FWC29,		Equipo11,		0				false
+FWC28,		Equipo10,		0				false
+FWC27,		Equipo9,		0				false
+FWC26,		Equipo8,		0				false
+FWC25,		Equipo7,		0				false
+FWC24,		Equipo6,		0				false
+FWC23,		Equipo5,		0				false
+FWC22,		Equipo4,		0				false
+FWC21,		Equipo3,		0				false
+FWC20,		Equipo2,		0				false
+FWC19,		Equipo1,		0				false
+FWC18,		Balon,		0				false
+FWC17,		Estadio10,		0				false
+FWC16,		Estadio9,		0				false
+FWC15,		Estadio8,		0				false
+FWC14,		Estadio7,		0				false
+FWC13,		Estadio6,		0				false
+FWC12,		Estadio5,		0				false
+FWC11,		Estadio4,		0				false
+FWC10,		Estadio3,		0				false
+FWC9,		Estadio2,		0				false
+FWC8,		Estadio1,		0				false
+FWC7,		Mascota Parte 2,		0				false
+FWC6,		Mascosta Parte 1,		0				false
+FWC5,		Copa 2 Parte 2,		0				false
+FWC4,		Copa 2 Parte 1,		0				false
+FWC3,		Copa Parte 2,		0				false
+FWC2,		Copa Parte 1,		0				false
+FWC1,		FIFA,		0				false
+FWC0,		Panini,		0				false
+KOR20,		Min Kyu Song,		0				false
+KOR19,		Heung Min Son,		0				false
+KOR18,		Chang Hoon Kwon,		0				false
+KOR17,		Ui Jo Hwang,		0				false
+KOR16,		Hee Chan Hwang,		0				false
+KOR15,		Gue Sung Cho,		0				false
+KOR14,		Seung Ho Paik,		0				false
+KOR13,		Jae Sung Lee,		0				false
+KOR12,		Woo Young Jung,		0				false
+KOR11,		In Beom Hwang,		0				false
+KOR10,		Yong Lee,		0				false
+KOR9,		Jin Su Kim,		0				false
+KOR8,		Young Gwon Kim,		0				false
+KOR7,		Min Jae Kim,		0				false
+KOR6,		Tae Hwan Kim,		0				false
+KOR5,		Chul Hong,		0				false
+KOR4,		Hyeon Woo Jo,		0				false
+KOR3,		Seung Gyu Kim,		0				false
+KOR2,		Selección,		0				false
+KOR1,		Escudo,		0				false
+URU20,		Luis Suárez,		0				false
+URU19,		Facundo Pellistri,		0				false
+URU18,		Darwin Núñez,		0				false
+URU17,		Edinson Cavani,		0				false
+URU16,		Matías Vecino,		0				false
+URU15,		Federico Valverde,		0				false
+URU14,		Lucas Torreira,		0				false
+URU13,		Nicolás De La Cruz,		0				false
+URU12,		Giorgian De Arrascaeta,		0				false
+URU11,		Rodrigo Bentancur,		0				false
+URU10,		Matías Viña,		0				false
+URU9,		Mathías Olivera,		0				false
+URU8,		Diego Godín,		0				false
+URU7,		José María Giménez,		0				false
+URU6,		Martín Cáceres,		0				false
+URU5,		Ronald Araújo,		0				false
+URU4,		Sergio Rochet,		0				false
+URU3,		Fernando Muslera,		0				false
+URU2,		Selección,		0				false
+URU1,		Escudo,		0				false
+GHA20,		Kamaldeen Sulemana,		0				false
+GHA19,		Issahaku Abdul Fatawu,		0				false
+GHA18,		Jordan Ayen,		0				false
+GHA17,		André Ayew,		0				false
+GHA16,		Felix Afena Gyan,		0				false
+GHA15,		Mubarak Wakaso,		0				false
+GHA14,		Thomas Partey,		0				false
+GHA13,		Daniel Kofi Kyereh,		0				false
+GHA12,		Mohammed Kudus,		0				false
+GHA11,		Iddrisu Baba,		0				false
+GHA10,		Andy Yiadom,		0				false
+GHA9,		Jonathan Mensah,		0				false
+GHA8,		Gideon Mensah,		0				false
+GHA7,		Alexander Djiku,		0				false
+GHA6,		Abdul Rahman Baba,		0				false
+GHA5,		Daniel Amartey,		0				false
+GHA4,		Richard Ofori,		0				false
+GHA3,		Joe Wollacott,		0				false
+GHA2,		Selección,		0				false
+GHA1,		Escudo,		0				false
+POR20,		Goncalo Guedes,		0				false
+POR19,		Diego Jota,		0				false
+POR18,		Cristiano Ronaldo,		0				false
+POR17,		Andre Silva,		0				false
+POR16,		Rúben Neves,		0				false
+POR15,		Renato Sanches,		0				false
+POR14,		Joao Moutinho,		0				false
+POR13,		Danilo Pereira,		0				false
+POR12,		Bruno Fernandez,		0				false
+POR11,		Bernardo Silva,		0				false
+POR10,		Rúben Dias,		0				false
+POR9,		Raphaël Guerreiro,		0				false
+POR8,		Pepe,		0				false
+POR7,		Nuno Mendes,		0				false
+POR6,		José Fonte,		0				false
+POR5,		Joao Cancelo,		0				false
+POR4,		Rui Patricio,		0				false
+POR3,		Diogo Costa,		0				false
+POR2,		Selección,		0				false
+POR1,		Escudo,		0				false
+CMR20,		Karl Toko Ekambi,		0				false
+CMR19,		Nicolas Moumi,		0				false
+CMR18,		Eric Choupo,		0				false
+CMR17,		Stephane Bahoken,		0				false
+CMR16,		Vincent Aboubakar,		0				false
+CMR15,		André Zambo,		0				false
+CMR14,		Samuel Oum Gouet,		0				false
+CMR13,		James Siliki,		0				false
+CMR12,		Pierre Kunde,		0				false
+CMR11,		Martin Hongla,		0				false
+CMR10,		Nouhou,		0				false
+CMR9,		Michael Ngadeu,		0				false
+CMR8,		Harold Moukoudi,		0				false
+CMR7,		Olivier Mbaizo,		0				false
+CMR6,		Collins Fai,		0				false
+CMR5,		Jean Charles Castelletto,		0				false
+CMR4,		Devis Epassy,		0				false
+CMR3,		André Onana,		0				false
+CMR2,		Selección,		0				false
+CMR1,		Escudo,		0				false
+SUI20,		Ruben Vargas,		0				false
+SUI19,		Haris Seferovic,		0				false
+SUI18,		Noah Okafor,		0				false
+SUI17,		Breel Embolo,		0				false
+SUI16,		Steven Zuber,		0				false
+SUI15,		Denis Zakaria,		0				false
+SUI14,		Granit Xhaka,		0				false
+SUI13,		Djibril Sow,		0				false
+SUI12,		Xherdan Shaqiri,		0				false
+SUI11,		Remo Freuler,		0				false
+SUI10,		Silvan Widmer,		0				false
+SUI9,		Fabian Schär,		0				false
+SUI8,		Ricardo Rodiguez,		0				false
+SUI7,		Kevin Mbabu,		0				false
+SUI6,		Nico Elvedi,		0				false
+SUI5,		Manuel Akanji,		0				false
+SUI4,		Gregor Kobel,		0				false
+SUI3,		Wann Sommer,		0				false
+SUI2,		Selección,		0				false
+SUI1,		Escudo,		0				false
+SRB20,		Dusan Vlahovic,		0				false
+SRB19,		Dusan Tadic,		0				false
+SRB18,		Aleksandar Mitrovic,		0				false
+SRB17,		Luka Jovic,		0				false
+SRB16,		Andrija Zivkovic,		0				false
+SRB15,		Nemanja Radonjic,		0				false
+SRB14,		Sergej Milinkovic,		0				false
+SRB13,		Nemanja Maksimovic,		0				false
+SRB12,		Sasa Lukic,		0				false
+SRB11,		Darko Lazovic,		0				false
+SRB10,		Filip Kostic,		0				false
+SRB9,		Nemnja Gudelj,		0				false
+SRB8,		Filip Duricic,		0				false
+SRB7,		Milos Veljkovic,		0				false
+SRB6,		Strahinja Pavlovic,		0				false
+SRB5,		Nikola Milenkovic,		0				false
+SRB4,		Vanja Milinkovic Savic,		0				false
+SRB3,		Predrag Rajkovic,		0				false
+SRB2,		Selección,		0				false
+SRB1,		Escudo,		0				false
+BRA20,		Vinícius JR,		0				false
+BRA19,		Richarlison,		0				false
+BRA18,		Raphinha,		0				false
+BRA17,		Neymar JR,		0				false
+BRA16,		Gabriel Jesus,		0				false
+BRA15,		Antony,		0				false
+BRA14,		Lucas Paqueta,		0				false
+BRA13,		Fred,		0				false
+BRA12,		Fabinho,		0				false
+BRA11,		Philippe Coutinho,		0				false
+BRA10,		Casemiro,		0				false
+BRA9,		Thiago Silva,		0				false
+BRA8,		Marquinhos,		0				false
+BRA7,		Eder Militao,		0				false
+BRA6,		Danilo,		0				false
+BRA5,		Alex Sandro,		0				false
+BRA4,		Ederson,		0				false
+BRA3,		Alisson,		0				false
+BRA2,		Selección,		0				false
+BRA1,		Escudo,		0				false
+CRO20,		Mislav Orsic,		0				false
+CRO19,		Marko Livaja,		0				false
+CRO18,		Andrej Kramaric,		0				false
+CRO17,		Josip Brekalo,		0				false
+CRO16,		Nikola Vlasic,		0				false
+CRO15,		Ivan Perisic,		0				false
+CRO14,		Mario Pasalic,		0				false
+CRO13,		Luka Modric,		0				false
+CRO12,		Mateo Kovacic,		0				false
+CRO11,		Marcelo Brozovic,		0				false
+CRO10,		Domagoj vida,		0				false
+CRO9,		Borna Sosa,		0				false
+CRO8,		Dejan Lovren,		0				false
+CRO7,		Josip Juranovic,		0				false
+CRO6,		Josko Gvardiol,		0				false
+CRO5,		Duje Caleta Car,		0				false
+CRO4,		Ivica Ivusic,		0				false
+CRO3,		Dominik Livakovic,		0				false
+CRO2,		Selección,		0				false
+CRO1,		Escudo,		0				false
+MAR20,		Tarik Tissoudali,		0				false
+MAR19,		Munir,		0				false
+MAR18,		Ryan Mmaee,		0				false
+MAR17,		Youssef En Nesyri,		0				false
+MAR16,		Ayoub El Kaabi,		0				false
+MAR15,		Sofiane Boufal,		0				false
+MAR14,		Imran Louza,		0				false
+MAR13,		Ilias Chair,		0				false
+MAR12,		Aymen Barkok,		0				false
+MAR11,		Sofyan Amrabat,		0				false
+MAR10,		Selim Amallah,		0				false
+MAR9,		Romain Saïss,		0				false
+MAR8,		Samy Mmaee,		0				false
+MAR7,		Adam Masina,		0				false
+MAR6,		Achraf Hakimi,		0				false
+MAR5,		Mayef Aguerd,		0				false
+MAR4,		Munir Mohamedi,		0				false
+MAR3,		Yassine Bounou,		0				false
+MAR2,		Selección,		0				false
+MAR1,		Escudo,		0				false
+CAN20,		Cyle Larin,		0				false
+CAN19,		David Junior Hoilett,		0				false
+CAN18,		Jonathan David,		0				false
+CAN17,		Samuel Piette,		0				false
+CAN16,		Jonathan Osorio,		0				false
+CAN15,		Mark Kaye,		0				false
+CAN14,		Atiba Hutchinson,		0				false
+CAN13,		Stephen Eustáquito,		0				false
+CAN12,		Alphonso Davies,		0				false
+CAN11,		Tajon Buchanan,		0				false
+CAN10,		Steven Vitória,		0				false
+CAN9,		Kamal Miller,		0				false
+CAN8,		Richie Laryea,		0				false
+CAN7,		Alistair Johnston,		0				false
+CAN6,		Doneil Henry,		0				false
+CAN5,		Samuel Adekugbe,		0				false
+CAN4,		Maxime Crépeau,		0				false
+CAN3,		Milan Borjan,		0				false
+CAN2,		Selección,		0				false
+CAN1,		Escudo,		0				false
+BEL20,		Dries Mertens,		0				false
+BEL19,		Romelu Lukaku,		0				false
+BEL18,		Eden Hazard,		0				false
+BEL17,		Jérémy Doku,		0				false
+BEL16,		Axel Witsel,		0				false
+BEL15,		Hans Vanaken,		0				false
+BEL14,		Youri Tielemans,		0				false
+BEL13,		Thorgan Hazard,		0				false
+BEL12,		Charles De Ketelaere,		0				false
+BEL11,		Kevin De Bruyne,		0				false
+BEL10,		Yannick Carrasco,		0				false
+BEL9,		Jan Vertonghen,		0				false
+BEL8,		Thomas Meunier,		0				false
+BEL7,		Jason Denayer,		0				false
+BEL6,		Timothy Castagne,		0				false
+BEL5,		Toby Alderweireld,		0				false
+BEL4,		Simon Mignolet,		0				false
+BEL3,		Thibaut Courtois,		0				false
+BEL2,		Selección,		0				false
+BEL1,		Escudo,		0				false
+JPN20,		Yuya Osako,		0				false
+JPN19,		Kaoru Mitoma,		0				false
+JPN18,		Takumi Minamino,		0				false
+JPN17,		Junya Ito,		0				false
+JPN16,		Kyogo Furuhashi,		0				false
+JPN15,		Takuma Asano,		0				false
+JPN14,		Ao Tanaka,		0				false
+JPN 13,		Gaku Shibasaki,		0				false
+JPN12,		Hidemasa Morita,		0				false
+JPN11,		Genki Haraguchi,		0				false
+JPN10,		Watary Endo,		0				false
+JPN9,		Maya Yoshida,		0				false
+JPN8,		Miki Yamane,		0				false
+JPN7,		Takehiro Tomiyasu,		0				false
+JPN6,		Yuta Nakayama,		0				false
+JPN5,		Yuto Nagatomo,		0				false
+JPN4,		Eiji Kawashima,		0				false
+JPN3,		Shuichi Gonda,		0				false
+JPN2,		Selección,		0				false
+JPN1,		Escudo,		0				false
+GER20,		Timo Werner,		0				false
+GER19,		Leroy Sane,		0				false
+GER18,		Marco Reus,		0				false
+GER17,		Thomas Müller,		0				false
+GER16,		Serge Gnabry,		0				false
+GER15,		Joshua Kimmich,		0				false
+GER14,		Jonas Hofmann,		0				false
+GER13,		Kai Havertz,		0				false
+GER12,		Ilkay Gündogan,		0				false
+GER11,		Leon Goretzka,		0				false
+GER10,		Niklas Süle,		0				false
+GER9,		Antonio Rüdiger,		0				false
+GER8,		David Raum,		0				false
+GER7,		Thilo Kehrer,		0				false
+GER6,		Robin Gosens,		0				false
+GER5,		Matthias Ginter,		0				false
+GER4,		Marc Ter Stergen,		0				false
+GER3,		Manuel Neuer,		0				false
+GER2,		Selección,		0				false
+GER1,		Escudo,		0				false
+CRC20,		Johan Venegas,		0				false
+CRC19,		Gerson Torres,		0				false
+CRC18,		Anthony Contreras,		0				false
+CRC17,		Joel Campell,		0				false
+CRC16,		Jewison Bennette,		0				false
+CRC15,		Yelisin Tejeda,		0				false
+CRC14,		Bryan Ruiz,		0				false
+CRC13,		Orlando Galo,		0				false
+CRC12,		Celso Borges,		0				false
+CRC11,		Kendall Waston,		0				false
+CRC10,		Juan Pablo Vargas,		0				false
+CRC9,		Bryan Oviedo,		0				false
+CRC8,		keysher Fuller,		0				false
+CRC7,		Oscar Duarte,		0				false
+CRC6,		Francisco Calvo,		0				false
+CRC5,		Ricardo Blanco,		0				false
+CRC4,		Leonel Moreira,		0				false
+CRC3,		Keylor Navas,		0				false
+CRC2,		Selección,		0				false
+CRC1,		Escudo,		0				false
+ESP20,		Pablo Sarabia,		0				false
+ESP19,		Alvaro Morata,		0				false
+ESP18,		Ferran Torres,		0				false
+ESP17,		Ansu Fati,		0				false
+ESP16,		Dani Olmo,		0				false
+ESP15,		Sergio Busquets,		0				false
+ESP14,		Rodri,		0				false
+ESP13,		Pedri,		0				false
+ESP12,		Marcos Llorente,		0				false
+ESP11,		Koke,		0				false
+ESP10,		Gavi,		0				false
+ESP9,		Pau Torres,		0				false
+ESP8,		Aymeric Laporte,		0				false
+ESP7,		Jordi Alba,		0				false
+ESP6,		Eric García,		0				false
+ESP5,		César Azpilicueta,		0				false
+ESP4,		Robert Sánchez,		0				false
+ESP3,		Unai Simón,		0				false
+ESP2,		Selección,		0				false
+ESP1,		Escudo,		0				false
+TUN20,		Naïm Sliti,		0				false
+TUN19,		Youssef Msakni,		0				false
+TUN18,		Seifeddine Jaziri,		0				false
+TUN17,		Anis Slimane,		0				false
+TUN16,		Ellyes Skhiri,		0				false
+TUN15,		Ferjani Sassi,		0				false
+TUN14,		Aïssa Laïdouni,		0				false
+TUN13,		Wahbi Khazri,		0				false
+TUN12,		Mohamed Ali Ben Romdhane,		0				false
+TUN11,		Montassar Talbi,		0				false
+TUN10,		Yassine Meriah,		0				false
+TUN9,		Hamza Mathlouthi,		0				false
+TUN8,		Ali Maaloul,		0				false
+TUN7,		Bilel Ifa,		0				false
+TUN6,		Mohamed Dräger,		0				false
+TUN5,		Dylan Bronn,		0				false
+TUN4,		Farouk Ben Mustapha,		0				false
+TUN3,		Bechir Ben Saïo,		0				false
+TUN2,		Selección,		0				false
+TUN1,		Escudo,		0				false
+DEN20,		Jonas Wind,		0				false
+DEN19,		Andreas Skov Olsen,		0				false
+DEN18,		Yussuf Poulsen,		0				false
+DEN17,		Kasper Dolberg,		0				false
+DEN16,		Martin Braithwaite,		0				false
+DEN15,		Daniel Wass,		0				false
+DEN14,		Christian Norgaard,		0				false
+DEN13,		Pierre Emile Hojbjerg,		0				false
+DEN12,		Christian Eriksen,		0				false
+DEN11,		Thomas Delaney,		0				false
+DEN10,		Mikkel Damsgaard,		0				false
+DEN9,		Jannil Vestergaard,		0				false
+DEN8,		Jens Stryger Larsen,		0				false
+DEN7,		Joakim Maehle,		0				false
+DEN6,		Simon Kjaer,		0				false
+DEN5,		Andreas Christensen,		0				false
+DEN4,		Frederik Ronnow,		0				false
+DEN3,		Kasper Schmeichel,		0				false
+DEN2,		Selección,		0				false
+DEN1,		Escudo,		0				false
+AUS20,		Adanm Taggart,		0				false
+AUS19,		Mathew Leckie,		0				false
+AUS18,		Craig Goodwin,		0				false
+AUS17,		Mitchell Duke,		0				false
+AUS16,		Martin Boyle,		0				false
+AUS15,		Aaron Mooy,		0				false
+AUS14,		Awer Mabil,		0				false
+AUS13,		James Jeggo,		0				false
+AUS12,		Jackson Irvine,		0				false
+AUS11,		Akdin Hrustic,		0				false
+AUS10,		Harry Souttar,		0				false
+AUS9,		Trent Sainsbury,		0				false
+AUS8,		Joel King,		0				false
+AUS7,		Rhyan Grant,		0				false
+AUS6,		Milos Degenek,		0				false
+AUS5,		Aziz Behich,		0				false
+AUS4,		Andrew Redmayne,		0				false
+AUS3,		Mathew Ryan,		0				false
+AUS2,		Selección,		0				false
+AUS1,		Escudo,		0				false
+FRA20,		Christopher Nkunku,		0				false
+FRA19,		Kylian Mbappé,		0				false
+FRA18,		Antoine Griezmann,		0				false
+FRA17,		Kingsley Coman,		0				false
+FRA16,		Karim Benzema,		0				false
+FRA15,		Wissam Ben Yedder,		0				false
+FRA14,		Aurélien Tchouaméni,		0				false
+FRA13,		Adrien Rabiot,		0				false
+FRA12,		Paul Pogba,		0				false
+FRA11,		Ngolo Kanté,		0				false
+FRA10,		Raphaël Varane,		0				false
+FRA9,		Benjamin Pavard,		0				false
+FRA8,		Jules Koundé,		0				false
+FRA7,		Presnel Kimpembe,		0				false
+FRA6,		Theo Hernández,		0				false
+FRA5,		Lucas Hernández,		0				false
+FRA4,		Mike Maignan,		0				false
+FRA3,		Hugo Lloris,		0				false
+FRA2,		Selección,		0				false
+FRA1,		Escudo,		0				false
+Pol20,		Karol Swiderski,		0				false
+Pol19,		Krzysztof Piatek,		0				false
+Pol18,		Arkadiusz Milik,		0				false
+Pol17,		Robert Lewandowski,		0				false
+Pol16,		Piotr Zielinski,		0				false
+Pol15,		Sebastian Szymanski,		0				false
+Pol14,		Jakub Moder,		0				false
+Pol13,		Grzergorz Krychowiak,		0				false
+Pol12,		Mateusz Klich,		0				false
+Pol11,		Kamil Józwiak,		0				false
+Pol10,		Maciej Rybus,		0				false
+Pol9,		Tymoteusz Puchacz,		0				false
+Pol8,		Kamil Glik,		0				false
+Pol7,		Matty Cash,		0				false
+Pol6,		Bartosz Bereszynski,		0				false
+Pol5,		Jan Bednarek,		0				false
+Pol4,		Lukasz Skorupski,		0				false
+Pol3,		Wojciech Szczesny,		0				false
+Pol2,		Selección,		0				false
+Pol1,		Escudo,		0				false
+MEX20,		Hirving Lozano,		0				false
+MEX19,		Raúl Jiménez,		0				false
+MEX18,		Rogelio Funes Mori,		0				false
+MEX17,		Carlos Rodríguez,		0				false
+MEX16,		Diego Lainez,		0				false
+MEX15,		Héctor Herrera,		0				false
+MEX14,		Erick Gutiérrez,		0				false
+MEX13,		Andrés Guardado,		0				false
+MEX12,		Jesús Manuel,		0				false
+MEX11,		Edson Alvarez,		0				false
+MEX10,		Jorge Sánchez,		0				false
+MEX9,		Luis Romo,		0				false
+MEX8,		Héctor Moreno,		0				false
+MEX7,		César Montes,		0				false
+MEX6,		Jesús Gallardo,		0				false
+MEX5,		Néstor Araújo,		0				false
+MEX4,		Alfredo Talavera,		0				false
+MEX3,		Guillermo Ochoa,		0				false
+MEX2,		Selección,		0				false
+MEX1,		Escudo,		0				false
+KSA20,		Khalid AlGhannam,		0				false
+KSA19,		Salem AlDawsari,		0				false
+KSA18,		Firas AlBuraikan,		0				false
+KSA17,		Abdullah Otayf,		0				false
+KSA16,		Mohamed Kanno,		0				false
+KSA15,		Hattan Baherbri,		0				false
+KSA14,		Sami AlNajei,		0				false
+KSA13,		Abdulelah AlMalki,		0				false
+KSA12,		Salman AlFaraj,		0				false
+KSA11,		Abdullah Madu,		0				false
+KSA10,		Hassan AlTambakti,		0				false
+KSA9,		Yasser AlShahrani,		0				false
+KSA8,		Sultan AlGhannam,		0				false
+KSA7,		Mohammed AlBurayk,		0				false
+KSA6,		Ali AlBoleahi,		0				false
+KSA5,		Abdulelah AlAmri,		0				false
+KSA4,		Mohammed AlRubai,		0				false
+KSA3,		Mohammed AlOwais,		0				false
+KSA2,		Selección,		0				false
+KSA1,		Escudo,		0				false
+ARG20,		Lionel Messi,		0				false
+ARG19,		Lautaro Martínez,		0				false
+ARG18,		Nicolás Gonzáles,		0				false
+ARG17,		Alejandro Gómez,		0				false
+ARG16,		Joaquín Correa,		0				false
+ARG15,		Julián Alvarez,		0				false
+ARG14,		Guido Rodríguez,		0				false
+ARG13,		Leandro Paredes,		0				false
+ARG12,		Giovani Lo Celso,		0				false
+ARG11,		Angel Di María,		0				false
+ARG10,		Rodrigo de Paul,		0				false
+ARG9,		Cristian Romero,		0				false
+ARG8,		Germán Pezzella,		0				false
+ARG7,		Nicolás Otamendi,		0				false
+ARG6,		Nahuel Molina,		0				false
+ARG5,		Marcos Acuña,		0				false
+ARG4,		Franco Armani,		0				false
+ARG3,		Emiliano Martínez,		0				false
+ARG2,		Selección,		0				false
+ARG1,		Escudo,		0				false
+WAL20,		Kieffer Moore,		0				false
+WAL19,		Brennan Johnson,		0				false
+WAL18,		Daniel James,		0				false
+WAL17,		Gareth bale,		0				false
+WAL16,		Harry Wilson,		0				false
+WAL15,		Jonathan Williams,		0				false
+WAL14,		Aaron Ramsey,		0				false
+WAL13,		Joe Morrell,		0				false
+WAL12,		Joe Allen,		0				false
+WAL11,		Neco Williams,		0				false
+WAL10,		Joe Rodon,		0				false
+WAL9,		Connor Roberts,		0				false
+WAL8,		Chris Mepham,		0				false
+WAL7,		Chris Gunter,		0				false
+WAL6,		Ben Davies,		0				false
+WAL5,		Ethan Ampadu,		0				false
+WAL4,		Wayne Hennessey,		0				false
+WAL3,		Danny Ward,		0				false
+WAL2,		Selección,		0				false
+WAL1,		Escudo,		0				false
+ USA20,		Timothy Weah,		0				false
+ USA19,		Giovanni Reyna,		0				false
+ USA18,		Christian Pulisic,		0				false
+ USA17,		Ricardo Pepi,		0				false
+ USA16,		Jesús ferreira,		0				false
+ USA15,		Yunus Musah,		0				false
+ USA14,		Weston Mckennie,		0				false
+ USA13,		Tyler Adams,		0				false
+ USA12,		Kellyn Acosta,		0				false
+ USA11,		Brenden Aaronson,		0				false
+ USA10,		Walker Zimmerman,		0				false
+ USA9,		Deandre Yedlin,		0				false
+ USA8,		Antonee Robinson,		0				false
+ USA7,		Chris Richards,		0				false
+ USA6,		Aaron Long,		0				false
+ USA5,		Sergiño Dest,		0				false
+ USA4,		Zack Steffen,		0				false
+ USA3,		Matt Turner,		0				false
+ USA2,		Selección,		0				false
+ USA1,		Escudo,		0				false
+IRN20,		Mehdi Taremi,		0				false
+IRN19,		Saman Ghoddos,		0				false
+IRN18,		Sardar Azmoun,		0				false
+IRN17,		Karim Ansarifard,		0				false
+IRN16,		Ahmad Nourollahi,		0				false
+IRN15,		Alireza Jahanbakhsh,		0				false
+IRN14,		Ali Gholizadeh,		0				false
+IRN13,		Saeid Ezatolahi,		0				false
+IRN12,		Vahid amiri,		0				false
+IRN11,		Omid Noorafkan,		0				false
+IRN10,		Sadegh Moharrami,		0				false
+IRN9,		Milad Mohammadi,		0				false
+IRN8,		Shoja Khalilzadeh,		0				false
+IRN7,		Hossein Kanaani,		0				false
+IRN6,		Majid Hosseini,		0				false
+IRN5,		Ehsan Hajsafi,		0				false
+IRN4,		Alireza Beiranvand,		0				false
+IRN3,		Amir Abedzadeh,		0				false
+IRN2,		Selección,		0				false
+IRN1,		Escudo,		0				false
+ENG20,		Raheem Sterling,		0				false
+ENG19,		Bukayo Saka,		0				false
+ENG18,		Harry Kane,		0				false
+ENG17,		Phil Foden,		0				false
+ENG16,		Declan Rice,		0				false
+ENG15,		Kalvin Phillips,		0				false
+ENG14,		Mason Mount,		0				false
+ENG13,		Jordan Henderson,		0				false
+ENG12,		Jack Grealish,		0				false
+ENG11,		Jude Bellingham,		0				false
+ENG10,		Kyle Walker,		0				false
+ENG9,		Jhon Stones,		0				false
+ENG8,		Luke Shaw,		0				false
+ENG7,		Harry Maguire,		0				false
+ENG6,		Conor Coady,		0				false
+ENG5,		Trent Alexander,		0				false
+ENG4,		Aaron Ramsdale,		0				false
+ENG3,		Jordan Pickford,		0				false
+ENG2,		Selección,		0				false
+ENG1,		Escudo,		0				false
+NED20,		Donyell Malen,		0				false
+NED19,		Cody Gakpo,		0				false
+NED18,		Memphis Depay,		0				false
+NED17,		Arnaut Danjuma,		0				false
+NED16,		Steven Bergwijn,		0				false
+NED15,		Georginio Wijnaldum,		0				false
+NED14,		Teun Koopmeiners,		0				false
+NED13,		Davy Klaassen,		0				false
+NED12,		Ryan Gravenberch,		0				false
+NED11,		Frenkie de Jong,		0				false
+NED10,		Steven Berghuis,		0				false
+NED9,		Virgil Van Dijk,		0				false
+NED8,		Denzel Dumfries,		0				false
+NED7,		Stefan de Vrij,		0				false
+NED6,		Matthijs de Ligt,		0				false
+NED5,		Daley Blind,		0				false
+NED4,		Jasper Cillessen,		0				false
+NED3,		Justin Bijlow,		0				false
+NED2,		Selección,		0				false
+NED1,		Escudo,		0				false
+SEN20,		Ismaïla Sarr,		0				false
+SEN19,		Sadio Mané,		0				false
+SEN18,		Bamba Dieng,		0				false
+SEN17,		Famara Diédhiou,		0				false
+SEN16,		Boulaye Dia,		0				false
+SEN15,		Nampalys Mendy,		0				false
+SEN14,		Cheikhou Kouyaté,		0				false
+SEN13,		Pape Gueye,		0				false
+SEN12,		Idrissa Gueye,		0				false
+SEN11,		Krépin Diatta,		0				false
+SEN10,		Bouna Sarr,		0				false
+SEN9,		Ibrahima Mbaye,		0				false
+SEN8,		Kalidou Koulibaly,		0				false
+SEN7,		Abdou Diallo,		0				false
+SEN6,		Pape Abou Cissé,		0				false
+SEN5,		Saliou Ciss,		0				false
+SEN4,		Alfred Gomis,		0				false
+SEN3,		Edouard Mendy,		0				false
+SEN2,		Selección,		0				false
+SEN1,		Escudo,		0				false
+ECU20,		Enner Valencia,		0				false
+ECU19,		Ayrton Preciado,		0				false
+ECU18,		Gonzalo Plata,		0				false
+ECU17,		Angel Mena,		0				false
+ECU16,		Michael Estrada,		0				false
+ECU15,		Jeremy Sarmiento,		0				false
+ECU14,		Jhegson Méndez,		0				false
+ECU13,		Carlos Gruezo,		0				false
+ECU12,		Alan Franco,		0				false
+ECU11,		Moisés Caicedo,		0				false
+ECU10,		Féliz Torres,		0				false
+ECU9,		Angelo Preciado,		0				false
+ECU8,		Piero Hincapie,		0				false
+ECU7,		Pervis Estupiñan,		0				false
+ECU6,		Byron Castillo,		0				false
+ECU5,		Robert Arboleda,		0				false
+ECU4,		Alexander Dominguez,		0				false
+ECU3,		Hernan Galindez,		0				false
+ECU2,		Selección,		0				false
+ECU1,		Escudo,		0				false
+QAT20,		Mohammed Muntari,		0				false
+QAT19,		Almoez Ali,		0				false
+QAT18,		Hasan AlHaydos,		0				false
+QAT17,		Ahmad Alaaeldin,		0				false
+QAT16,		Akram Hassan Afif,		0				false
+QAT15,		Yousuf Abdurisag,		0				false
+QAT14,		Assim Omer Madibo,		0				false
+QAT13,		Abdulaziz Hatem,		0				false
+QAT12,		Karim Boudiaf,		0				false
+QAT11,		Tarek Salman,		0				false
+QAT10,		Pedro Miguel,		0				false
+QAT9,		Boualem Khoukhi,		0				false
+QAT8,		Musaab Khidir,		0				false
+QAT7,		Abdulkarim Hassan,		0				false
+QAT6,		Bassam Alrawi,		0				false
+QAT5,		Homan Ahmed,		0				false
+QAT4,		Meshaal Barsham,		0				false
+QAT3,		Saad Al Sheeb,		0				false
+QAT2,		Selección,		0				false
+QAT1,		Escudo,		0				false

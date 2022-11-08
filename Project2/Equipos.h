@@ -23,7 +23,8 @@ public:
 	//metodos para leer el csv
 	void AddEq(string, string);
 	void AddNo(string, string);
-
+	//metodo para eliminar la lista
+	void eliminar();
 	//metodo para marcar y agregar cantidad de las estampas
 	bool marcar_aumentar(string);
 	//metodo para contar el total de estampas
@@ -44,7 +45,8 @@ public:
 	string mostrar_repetidas_equipo(int,string,bool);
 	//metodo para obtener la cantidad de equipos
 	int cantidad_equipos();
-
+	//metodo para guardado del album actual
+	string guardado(int,int);
 		
 private:
 	Nodequipos* equiheader = nullptr;

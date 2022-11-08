@@ -20,6 +20,11 @@ void Equipos::AddNo(string cod, string nom)
 	nomheader = aux;
 }
 
+void Equipos::eliminar()
+{
+	equiheader = nullptr;
+}
+
 bool Equipos::marcar_aumentar(string code)
 {
 	Nodequipos* auxestampas = equiheader;
@@ -265,4 +270,9 @@ int Equipos::cantidad_equipos()
 		auxequi = auxequi->next;
 	}
 	return devolver;
+}
+
+string Equipos::guardado(int is, int seleccionado)
+{
+	return string();
 }
