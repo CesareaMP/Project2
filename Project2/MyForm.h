@@ -37,7 +37,10 @@ namespace Project2 {
 	String^ repetidas;
 	String^ no_repetidas;
 	String^ repetidas_nombre;
-	String^ no_repetidas_nombre;
+
+	public:
+
+		   String^ no_repetidas_nombre;
 
 	protected:
 		/// <summary>
@@ -333,7 +336,7 @@ namespace Project2 {
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(194, 42);
 			this->button5->TabIndex = 62;
-			this->button5->Text = L"FILTRAR REPETIDAS \r\nPOR EQUIPOS";
+			this->button5->Text = L"FILTRAR REPETIDAS \r\nPOR CODIGO EQUIPOS";
 			this->button5->UseVisualStyleBackColor = true;
 			this->button5->Click += gcnew System::EventHandler(this, &MyForm::button5_Click);
 			// 
@@ -354,7 +357,7 @@ namespace Project2 {
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(194, 42);
 			this->button7->TabIndex = 64;
-			this->button7->Text = L"FILTRAR NO REPETIDAS \r\nPOR EQUIPOS";
+			this->button7->Text = L"FILTRAR NO REPETIDAS \r\nPOR CODIGO EQUIPOS";
 			this->button7->UseVisualStyleBackColor = true;
 			this->button7->Click += gcnew System::EventHandler(this, &MyForm::button7_Click);
 			// 
@@ -519,6 +522,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	}
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+
 		elegir = 2;
 		listBox1->Items->Clear();
 		listBox1->Items->Add("CODIGO		NOMBRE		REPETICIONES");
@@ -526,10 +530,10 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 		String^ todo = gcnew String(equipo.mostrar_repetidas_equipo(equipo.contar_estampas_segun_codequipo(msclr::interop::marshal_as<std::string>(txtfiltronombre->Text)), msclr::interop::marshal_as<std::string>(txtfiltronombre->Text), true).c_str());
 		if (todo != "")
 		{
-			for (int i = 0; i < todo->Split(';')->Length; i++)
+			for (int j = 0; j < todo->Split(';')->Length; j++)
 			{
-				listBox1->Items->Add(todo->Split(';')[i]);
-				repetidas_nombre += todo->Split(';')[i] + ";";
+				listBox1->Items->Add(todo->Split(';')[j]);
+				repetidas_nombre += todo->Split(';')[j] + ";";
 			}
 		}
 }

@@ -205,7 +205,7 @@ string Equipos::mostrar_repetidas(int cantidad,string codequipo,bool repetidas)
 	
 	bool repetir = false;
 	bool repetir2 = false;
-	string escupir;
+	string escupir="";
 	while (repetir==false)
 	{
 		if (codequipo!=auxequi->codigo_equipo)
@@ -234,7 +234,7 @@ string Equipos::mostrar_repetidas_equipo(int cantidad, string equipo, bool condi
 {
 	Nodequipos* auxequi = equiheader;
 	bool maybe = false;
-	string escupir;
+	string escupir="";
 	while (maybe==false)
 	{
 		if (auxequi->codigo_equipo == equipo)
